@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+/*titulo de la pagina*/
+.title{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 150px;
+    font-family:sans-serif
+}
+/*=======================/fin/=============*/
+/*seccion 1 de la pagina*/
+.section1{
+    background: url(../assets/imagenes/angel-jimenez.jpg);
+    background-size:cover;
+    background-position:center;
+    padding: 22%;
+    text-align:inherit;
+    background-repeat: no-repeat;
+}
+/*===========/fin/=====*/
+/*contenido de la pagina*/
+.medio{
+    background-color: white;
+    margin-bottom: 10%;
+    padding-bottom: 90%;
+    padding: 5%; 
+}
+.box{
+    display: flex; 
+    size-adjust:initial;
+    
+}
+.one{
+    flex: 1 1  auto;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.two{
+    flex: 1 1 auto;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+    
+}
+#foto1{
+    height: 800px;
+    
+}
+.three{
+    flex: 1 1 auto;
+    flex: 1 1  auto;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+#foto2{
+    height: 800px;
+    ;
+    
+    
+    
+}
+.four{
+    flex: 1 1 auto;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;  
+}
+/* =========/fin===========*/
+/*seccion 2 de la pagina*/
+.section2{
+    background: url(../assets/imagenes/john-raptis.png);
+    background-size: cover;
+    background-position: center;
+    padding: 20%;
+    background-repeat: no-repeat;    
+}
+.contenido{
+    display: flex;
+    flex-direction:column;
+    align-items: baseline;
+}
+.sec1{
+    color: white;
+    ;
+    font-size: 90px;
+}
+.sec2{
+    color: rgb(255, 255, 255);
+    
+    font-size: 20px;
+    
+}
+
+/*==========/fin==============*/
+/*pie de pagina*/
+.pie{
+    background-color: rgb(255, 15, 63);
+    background-size: 30vh;
+    background-position: 50%;
+    padding:0;
+    padding-bottom: 7%;
+    text-align:inherit;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content:space-around;
+    color: white;
+    font-size: 18;
+    font-family: 'Courier New', Courier, monospace;
+}
+.m{
+    display: flex;
+    flex-direction: column; 
+    word-spacing: 300px;
+    list-style: none;
+}
+.punto1{
+    padding-bottom: 60px;
+    padding-top: 20px;
+}
+.punto1{
+    padding-bottom: 60px;
+    padding-top: 20px;
+    
+}
+.pie2{
+    background-color: rgb(255, 15, 63);
+    background-size: 30vh;
+    background-position: 50%;
+    padding:0;
+    padding-bottom: 7%;
+    text-align:inherit;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+    text-align: center;
+    display: flex;
+    color: white;
+    font-size: 18;
+    font-family: 'Courier New', Courier, monospace;
+}
+.punto2{
+    margin-left: 180px;
+    margin-right: 50px;
+    padding-top: 30px;
+} 
+.punto4{
+    margin-left: 180px;
+    margin-right: 50px;
+    padding-top: 30px;
+}   
+
+/*==========/fin============*/
+/*botones*/
+.button1{
+    margin-top: 50px;
+    height: 40px;
+    width: 180px;
+    border-radius: 30px;
+    text-align: center;
+    background: rgba(253,76,92,255);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-color: rgba(255, 255, 255, 0);
+    
+}
+.button2{
+    margin-top: 50px;
+    height: 40px;
+    width: 180px;
+    border-radius: 30px;
+    text-align: center;
+    background: rgba(253,76,92,255);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-color: rgba(255, 255, 255, 0);
+    margin-left: 450px;
+    
+}
+
+/*=========fin=========*/
+
+/*textos*/
+.texto1{
+    background: linear-gradient(rgb(255, 58, 58),rgb(255, 0, 111));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: tomato; 
+    font-family:sans-serif;
+    font-size: 50px;
+}
+.texto2{
+    color: black;
+    padding-top: 8px;
+    
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+}
+.texto3{
+    color: black;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+}
+.texto4{
+    color: black;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    
+}
+.hr{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
